@@ -1,0 +1,6 @@
+{
+  "name": "Thais Uchôa Assessoria Contábil",
+  "description": "Contabilidade simples, direta e sem complicação para MEI, pequenas empresas, autônomos e gestão de delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
