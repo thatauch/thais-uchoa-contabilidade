@@ -50,8 +50,8 @@ header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92
 .brand b{font-family:'Merriweather',serif;font-size:15px;letter-spacing:.04em}
 .brand small{display:block;font-size:11px;color:var(--soft);letter-spacing:.06em}
 .links{display:flex;gap:22px;font-size:14px}
-.links a{text-decoration:none;color:var(--soft)}.links a:hover{color:var(--vinho)}
-@media(max-width:760px){.links{display:none}.nav .btn{padding:0 16px;font-size:14px}}
+.links a{text-decoration:none;color:var(--soft);white-space:nowrap}.links a:hover{color:var(--vinho)}
+@media(max-width:900px){.links{display:none}}@media(max-width:760px){.nav .btn{padding:0 16px;font-size:14px}}
 .hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:center}
 .hero p{margin:20px 0 28px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
